@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title id="title">Python Documentation page</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/9c7f45eb37.js" crossorigin="anonymous"></script>
+  <meta name="description" content="python documentation page" />
+  <meta charset="UTF-8" />
+  <meta name="author" content="Julian Ricardo Aparicio Bello"/>
+  <meta name="date" content="14/04/2023">
+  
+  <!--For highlighting code highlight.js
+    This has to be commented in order to pass freecodecamp software 
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark-dimmed.min.css">
+  -->
+
+
+
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <header>Python <span><b>Documentation</b> </span></header>
+    <ul id="my_ul">
+      <li>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Installing_Python">Installing Python</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Sintax">Sintax</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Control_Flow_tools">Control Flow tools</a>
+      </li>
+
+      <li>
+        <a class="nav-link" href="#Working_with_Data">Working with Data</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Working_with_Files">Working with Files</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Object_Oriented_Programming">Object Oriented Programming</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Libraries_and_Modules">Libraries and Modules</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Debugging_and_Troubleshooting">Debugging and Troubleshooting</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Web_Development">Web Development</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Testing">Testing</a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Python is a high-level, interpreted programming language
+        that was created by Guido van Rossum in the late 1980s.
+        It is named after the Monty Python comedy group and has
+        become one of the most popular programming languages in
+        the world.<br><br> Python is known for its simple, easy-to-read
+        syntax and its versatility, as it can be used for a wide
+        variety of applications, including web development,
+        data analysis, and machine learning. Additionally,
+        Python has a large and active community of developers,
+        as well as many third-party libraries and tools available.
+        With its automatic memory management and support for
+        object-oriented programming (OOP) concepts like classes
+        and inheritance, Python is a great language for both
+        beginners and experienced programmers alike.</p>
+
+      <h4>Relevant information about python</h4>
+      <ol id="ordered_list">
+        <li class="numbered">What is Python
+          <ul class="nested_ul">
+            <li ><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              A high-level, interpreted programming language
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Created by Guido van Rossum in the late 1980s
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Named after the Monty Python comedy group
+            </li>
+          </ul>
+        </li>
+        <li class="numbered">Why use python
+          <ul class="nested_ul">
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Easy to learn and use
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Versatile: can be used for a wide variety of applications, including web development, data analysis, and
+              machine learning
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Large and active community of developers
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Many third-party libraries and tools available
+            </li>
+          </ul>
+        </li>
+        <li class="numbered">Features of Python
+          <ul class="nested_ul">
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Simple, easy-to-read syntax
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Dynamic typing: variables don't need to be declared before use
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Automatic memory management: garbage collection
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Interpreted: code is executed line-by-line, without the need for compilation
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Object-oriented: supports object-oriented programming (OOP) concepts like classes and inheritance
+            </li>
+          </ul>
+        </li>
+        <li class="numbered">Versions of Python
+          <ul class="nested_ul">
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Python 2.x: legacy version, no longer supported as of January 1, 2020
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Python 3.x: current version, with many improvements over Python 2.x
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+    </section>
+    <section class="main-section" id="Installing_Python">
+      <header>Installing Python</header>
+      <p>Before you can start coding in Python, you'll need to install it on your computer.
+        Fortunately, installing Python is a straightforward process that can be done in just
+        a few minutes. In this section, we'll walk you through the steps to download and
+        install Python on your computer, whether you're using Windows, macOS, or Linux.
+        Once you have Python installed, you'll be ready to start writing your first Python programs!</p>
+      <h4>Brief Python installation guide</h4>
+      <ol>
+        <li class="numbered">
+          Dowloading python
+          <ul class="nested_ul">
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Go to the official Python website (python.org)
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Click the "Downloads" link at the top of the page
+            </li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Select the appropriate installer for your operating system and version of Python (Python 3.x is
+              recommended)
+            </li>
+          </ul>
+        </li>
+        <li class="numbered">
+          Installing Python
+          <ul class="nested_ul">
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Double-click the downloaded installer file</li>
+            <li>
+              <i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Follow the prompts in the installation wizard</li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              On windows: Make sure to select the "Add Python to PATH" option during installation</li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              On macOS: Python should be installed by default but you may need to update to the latest version</li>
+          </ul>
+        </li>
+        <li class="numbered">
+          Verifying the installation
+          <ul class="nested_ul">
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Open a command prompt or terminal window</li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              Type "python" and press Enter</li>
+            <li><i class="fa-brands fa-python fa-sm" style="color: #306998;"></i>
+              If Python is installed correctly, you should see the Python interpreter prompt (">>>")</li>
+          </ul>
+        </li>
+      </ol>
+
+    </section>
+    <section class="main-section" id="Sintax">
+      <header>Sintax</header>
+      <p>Python is known for its simple, easy-to-read syntax, which makes
+        it a great language for beginners to learn. Python code is written
+        using indentation to denote blocks of code, rather than using braces
+        or semicolons like many other programming languages. Variables in
+        Python don't need to be declared before use, and data types are
+        dynamically determined based on the value assigned to them.
+        Python also supports many built-in data types and operations,
+        including strings, lists, dictionaries, and mathematical
+        operations. With its straightforward syntax and built-in
+        functionality, Python is a great language for a wide range
+        of applications, from simple scripts to complex web applications
+        and data analysis projects.</p>
+      <h4>Example of relevant Sintax</h4>
+      <pre>
+      <code class="language-python"># This is a comment in Python
+# Variables don't need to be declared before use
+message = "Hello, world!"
+
+# The print() function displays output to the console
+print(message)
+
+# Python uses indentation to denote blocks of code
+if len(message) > 10:
+    print("The message is long")
+else:
+    print("The message is short")
+
+# Python supports many built-in data types and operations
+my_list = [1, 2, 3, 4, 5]
+my_dict = {"name": "Alice", "age": 30}
+
+# Loops and conditionals are also fundamental to Python
+for num in my_list:
+    if num % 2 == 0:
+        print(f"{num} is even")
+    else:
+        print(f"{num} is odd")
+        </code>
+        </pre>
+
+      <p><span class="numbered"><b>Explanation: </b></span>
+        This code snippet demonstrates several features of Python syntax,
+        including comments, variables, print statements, indentation to
+        denote blocks of code, conditionals, loops, lists, and dictionaries.
+      </p>
+    </section>
+
+    <section class="main-section" id="Control_Flow_tools">
+      <header>Control Flow Tools</header>
+      <p>Control flow tools in Python are used to dictate the order in which a 
+        program's instructions are executed. One such tool is the "if" statement,
+        which allows a program to execute certain code only if a specified condition
+        is met. For example, if a user enters an incorrect password, an "if" statement
+        can be used to display an error message and prompt the user to try again.
+        Another important control flow tool is the "for" loop, which allows a 
+        program to repeatedly execute a block of code for each item in a sequence.
+        This is particularly useful when working with lists, tuples, and other data structures.
+      </p>
+       <p> In addition to "if" statements and "for" loops, Python also includes other control flow tools
+        such as "while" loops, "try" and "except" statements, and "break" and "continue" statements.
+        Each of these tools serves a specific purpose and can be used to build more complex programs
+        with greater functionality. Understanding how to use these control flow tools effectively is
+        essential for any Python programmer who wants to create efficient, reliable, and maintainable code.</p>
+      <h4>Example 1: Using an if statement</h4>
+      <pre>
+      <code class="language-python">number = 10
+if number % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
+        </code>
+        </pre>
+      <p><span class="numbered"><b>Explanation: </b></span>
+        In this code, an "if" statement is used to check whether the number variable is even or odd.
+        The modulo operator (%) is used to determine whether the number is divisible by 2 with no remainder.
+        If it is, then the number is even and the program prints "The number is even". If not, the number is odd
+        and the program prints "The number is odd".
+      </p>
+      <h4>Example 2: Using a "for" loop to iterate over a list</h4>
+      <pre>
+      <code class="language-python">names = ["Alice", "Bob", "Charlie", "David"]
+
+for name in names:
+    print("Hello, " + name + "!")
+        </code>
+        </pre>
+
+      <p><span class="numbered"><b>Explanation: </b></span>
+        In this code, a "for" loop is used to iterate over each item in the names list.
+        For each name in the list, the program prints a greeting that includes the name.
+        This is a simple example of how "for" loops can be used to perform a repetitive
+        task for each item in a sequence.
+      </p>
+
+      <h4>Example 3: Using a while loop together with try and catch</h4>
+      <pre>
+      <code class="language-python">valid_input = False
+
+while not valid_input:
+    age_str = input("Please enter your age: ")
+    try:
+        age = int(age_str)
+        valid_input = True
+    except ValueError:
+        print("Invalid input, please enter a valid integer")
+
+print("Your age is " + str(age))
+        </code>
+        </pre>
+      <p><span class="numbered"><b>Explanation: </b></span>
+        In this code, a "while" loop is used to keep prompting the user for their age
+        until valid input is entered. The input() function is used to get input from
+        the user, and a "try" and "except" block is used to handle any errors that
+        may occur when converting the input to an integer. Once valid input is entered,
+        the program prints the user's age.
+      </p>
+
+      <h4>Example 4: Using a break statement to exit a loop early</h4>
+      <pre>
+      <code class="language-python">numbers = [1, 2, 3, 4, 5]
+ 
+for number in numbers:
+    if number == 3:
+        break
+    print(number)
+
+print("Loop finished")
+        </code>
+        </pre>
+      <p><span class="numbered"><b>Explanation: </b></span>
+        In this code, a "for" loop is used to iterate over a list of numbers.
+        When the loop encounters the number 3, a "break" statement is used
+        to exit the loop early. This means that the program only prints the
+        numbers 1 and 2, and then prints "Loop finished". This is an example
+        of how "break" statements can be used to exit a loop early if a certain condition is met.
+      </p>
+
+    </section>
+
+    <section class="main-section" id="Working_with_Data">
+      <header>Working with Data</header>
+      <p>Python is a powerful language for working with data, whether you're
+        reading data from files, querying databases, or manipulating data in
+        memory. Python has built-in support for many data formats, including
+        CSV, JSON, and XML, and third-party libraries are available for
+        working with other formats such as Excel spreadsheets and SQL
+        databases.<br><br> Python also has a rich set of libraries for data
+        manipulation and analysis, including NumPy, Pandas, and Matplotlib.
+        With these tools, you can easily read, transform, and visualize
+        data, making Python an excellent choice for data analysis and
+        scientific computing.</p>
+      <h4>Example using pandas</h4>
+      <pre>
+      <code class="language-python">import pandas as pd
+
+# Read a CSV file into a Pandas DataFrame
+df = pd.read_csv('data.csv')
+
+# Filter the DataFrame to only include rows where the 'age' column is greater than 30
+df_filtered = df[df['age'] > 30]
+
+# Group the DataFrame by the 'gender' column and calculate the average age for each group
+df_grouped = df_filtered.groupby('gender').mean()
+
+# Create a bar chart of the average ages by gender using Matplotlib
+import matplotlib.pyplot as plt
+plt.bar(df_grouped.index, df_grouped['age'])
+plt.xlabel('Gender')
+plt.ylabel('Average Age')
+plt.show()
+
+      </code>
+      </pre>
+      <p><span class="numbered"><b>Explanation: </b></span>
+        This code snippet demonstrates several features of working with data in
+        Python, including reading data from a CSV file into a Pandas DataFrame,
+        filtering and grouping the data, and creating a visualization of the
+        results using Matplotlib.
+      </p>
+    </section>
+      <section class="main-section" id="Working_with_Files">
+        <header>Working with Files</header>
+        <p>Working with files is a common task in many programming projects, and
+          Python provides a variety of built-in functions and modules for working
+          with files. With Python, you can easily read and write text files,
+          binary files, and more. The built-in open() function can be used
+          to open a file and read its contents or write new data to it.
+          Python also provides modules for working with specific file
+          formats, such as CSV, JSON, and XML files. With these tools,
+          you can easily read and write data to and from files, making
+          it easy to integrate file I/O into your Python programs.</p>
+        <h4>Example of reading and writing in files</h4>
+        <pre>
+        <code class="language-python"># Open a file for reading
+with open('data.txt', 'r') as f:
+    # Read the entire contents of the file
+    contents = f.read()
+    # Print the contents of the file
+    print(contents)
+
+# Open a file for writing
+with open('output.txt', 'w') as f:
+    # Write some data to the file
+    f.write('Hello, world!')
+        </code>
+        </pre>
+        <p><span class="numbered"><b>Explanation: </b></span>
+          This code snippet demonstrates how to use Python's built-in file I/O
+          functions to read and write files. In the first block, the open()
+          function is used to open a file in read-only mode, and the read()
+          method is used to read the entire contents of the file into a string.
+          In the second block, the open() function is used to open a file in
+          write mode, and the write() method is used to write the string "Hello, world!"
+          to the file. Note that both blocks use the with statement to ensure that the
+          file is closed automatically when the block is exited, even if an exception is raised.
+        </p>
+      </section>
+    </section>
+    <section class="main-section" id="Object_Oriented_Programming">
+      <header>Object Oriented Programming</header>
+      <p>Assuming you know the basics of object-oriented programming, this section will
+        be explained with three examples.</p>
+      <h4>Example 1: Creating a class</h4>
+        <pre>
+      <code class="language-python"># Define a class for a person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I'm {self.age} years old.")
+
+# Create a new person object and call its greet method
+person = Person('Alice', 30)
+person.greet()
+
+      </code>
+      </pre>
+      <p><span class="numbered"><b>Explanation: </b></span>
+        In this example, we define a simple Person class with a constructor method that sets the person's
+        name and age, and a greet method that prints a message to introduce the person. We then create a
+        new Person object with the name "Alice" and age 30, and call its greet method to print a greeting.
+      </p>
+      <h4>Example 2: Inheritance</h4>
+      <pre>
+      <code class="language-python"># Define a base class for animals
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        pass
+
+# Define a subclass for dogs
+class Dog(Animal):
+    def speak(self):
+        print(f"{self.name} says woof!")
+
+# Define a subclass for cats
+class Cat(Animal):
+    def speak(self):
+        print(f"{self.name} says meow!")
+
+# Create some animal objects and call their speak methods
+dog = Dog('Fido')
+cat = Cat('Fluffy')
+dog.speak()
+cat.speak()
+      </code>
+    </pre>
+
+      <p> <span class="numbered"><b>Explanation: </b></span>In this example, we define a base Animal class with an empty speak method, and two subclasses Dog and Cat that
+        override the speak method to print a different message for each type of animal. We then create a Dog object
+        named "Fido" and a Cat object named "Fluffy", and call their speak methods to hear them "speak".</p>
+
+      <h4> Example 3: Polymorphism</h4>
+      <pre>
+      <code class="language-python"># Define a base class for shapes
+class Shape:
+    def area(self):
+        pass
+
+# Define a subclass for rectangles
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+# Define a subclass for circles
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius ** 2
+
+# Create some shape objects and call their area methods
+rectangle = Rectangle(5, 10)
+circle = Circle(7)
+print(f"The area of the rectangle is {rectangle.area()}.")
+print(f"The area of the circle is {circle.area()}.")
+      </code>
+    </pre>
+
+      <p> <span class="numbered"><b>Explanation: </b></span>In this example, we define a base Shape class with an empty area method, and two subclasses Rectangle
+        and Circle that override the area method to compute the area of a rectangle or circle. We then create
+        a Rectangle object with width 5 and height 10, and a Circle object with radius 7, and call their area
+        methods to compute their areas. The key concept here is that we can treat these different shapes as
+        instances of a common base class, and call the same area method on each of them to get their areas.
+        This is an example of polymorphism, where different objects can be treated as if they have the same
+        interface.
+      </p>
+    </section>
+
+    <section class="main-section" id="Libraries_and_Modules">
+      <header>Libraries and Modules</header>
+      <p>Libraries and modules are pre-written code that you can use in your Python programs to perform specific tasks.
+        A module is a single file that contains Python definitions and statements, while a library is a collection of
+        related modules that can be imported into your program to provide additional functionality.<br><br>
+
+        Python has a large standard library that comes included with the language, providing modules for tasks such as
+        file I/O,
+        networking, and regular expressions. There are also many third-party libraries available for Python, such as
+        NumPy for
+        scientific computing, Pandas for data analysis, and Django for web development.<br><br>
+
+        To use a module or library in your program, you need to first import it using the import statement. Once
+        imported, you
+        can access the functions, classes, and variables defined in the module or library and use them in your program.
+      </p>
+
+      
+      <h4>Example using math module: </h4>
+      <pre>
+      <code class="language-python">import math
+
+x = math.sqrt(25)
+print(x)  # Output: 5.0
+
+      </code>
+    </pre>
+
+      <p><span class="numbered"><b>Explanation: </b></span> In this example, we import the math module and use its sqrt function to compute the square root of
+        25.
+        We then print the result, which should be 5.0.</p>
+    </section>
+
+
+    <section class="main-section" id="Debugging_and_Troubleshooting">
+      <header>Debugging and Troubleshooting</header>
+      <p>Debugging and troubleshooting are critical skills for any programmer, and Python provides several tools to help
+        you
+        find and fix bugs in your code. Here's a brief explanation of these tools:</p>
+      <ol>
+        <li class="numbered">The print() function:
+          <p style="font-weight: normal;"> One of the simplest and most effective debugging techniques is to use the print()
+            function
+            to output the values of variables or expressions at different points in your code. This can help you
+            identify
+            where a problem is occurring and what values are causing it.
+          </p>
+        
+        </li>
+        <li class="numbered">The pdb module:
+          <p style="font-weight: normal;">
+            Python also includes a built-in debugger called pdb, which allows you to step through your
+            code
+            line by line, set breakpoints, and inspect variables and their values. You can launch the debugger by
+            inserting
+            the line import pdb; pdb.set_trace() at the point in your code where you want to start debugging.
+          </p>
+        </li>
+        <li class="numbered">IDEs and editors:
+          <p style="font-weight: normal;">
+            Many Python IDEs and editors, such as PyCharm and Visual Studio Code, include built-in
+            debugging
+            tools that provide a graphical interface for setting breakpoints, stepping through code, and inspecting
+            variables.
+            These tools can make the debugging process faster and more efficient.
+          </p>
+        </li>
+        <li class="numbered"> Stack traces and error messages:
+          <p style="font-weight: normal;">
+             When your program encounters an error, Python will typically provide a
+            stack trace
+            and an error message that can help you identify the source of the problem. It's important to read these
+            messages
+            carefully and understand what they are telling you, as they can often provide valuable clues about where to
+            look for the bug.
+          </p>
+        </li>
+      </ol>
+      <p><span class="numbered">
+        By using these tools and techniques, you can become a more effective debugger and troubleshooter, and improve
+        the quality
+        and reliability of your Python programs.</span>
+      </p>
+
+    </section>
+    <section class="main-section" id="Web_Development">
+      <header>Web Development</header>
+      <p>Web development in Python is typically done using web frameworks such as Django or Flask. These frameworks
+        provide a set
+        of tools and libraries for building web applications, including handling HTTP requests and responses, managing
+        sessions
+        and user authentication, and interfacing with databases.<br><br>
+
+        Django is a full-featured web framework that includes many built-in components, such as an ORM for database
+        access, an admin
+        interface for managing data, and a templating engine for generating HTML pages. Flask, on the other hand, is a
+        lightweight
+        framework that provides just the basic tools needed for building web applications, making it more flexible and
+        customizable.<br><br>
+
+        In addition to the web frameworks themselves, Python also has many libraries for working with web-related
+        technologies
+        such as HTML, CSS, and JavaScript. For example, the BeautifulSoup library can be used to parse HTML and extract
+        data,
+        while requests can be used to make HTTP requests to external APIs.<br><br>
+
+        Overall, Python is a powerful and versatile language for web development, and its many libraries and frameworks
+        make it
+        a great choice for building everything from small personal websites to large-scale enterprise applications.
+      </p>
+
+      <h4>Example using Flask</h4>
+      <pre>
+      <code class="language-python">from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'Hello, World!'
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+      </code>
+    </pre>
+      <span>
+      <p><span class="numbered"><b>Explanation: </b></span>
+        In this example, we define a Flask application and two routes: one for the homepage
+        ("/") and one for an "about" page ("/about"). The hello() function returns a simple
+        greeting, while the about() function uses a template to generate an HTML page.
+
+        To run the application, we check if the script is being run as the main program and call the
+        run() function. With debug=True, Flask will automatically reload the application whenever
+        changes are made, making it easy to iterate and test during development.
+      </p>
+    </section>
+    <section class="main-section" id="Testing">
+      <header>Testing</header>
+      <p>Testing is a crucial part of software development, as it helps ensure that your code works as
+        expected and catches any potential bugs or errors before they reach your users. In Python,
+        there are several testing frameworks available, including unittest, pytest, and doctest.<br><br>
+
+        The unittest module is included in Python's standard library and provides a set of tools
+        for writing and running unit tests. pytest is a popular third-party testing framework
+        that offers more advanced features and is known for its simplicity and ease of use.
+        doctest is another built-in module that allows you to include tests directly in your
+        documentation strings, making it easy to ensure that your code examples stay up-to-date and accurate.<br><br>
+
+        To use a testing framework, you typically write a set of test functions that exercise
+        different parts of your code and assert that the results are correct. For example,
+        you might write a test function that checks that a certain calculation returns the
+        expected value, or that a function raises an exception when given invalid input.</p>
+      <h4>Example using pytest</h4>
+      <pre>
+      <code class="language-python">def test_addition():
+assert 2 + 2 == 4
+      </code>
+    </pre>
+      <p><span class="numbered"><b>Explanation: </b></span>
+        In this example, we define a test function called test_addition() that asserts that 2 + 2 equals 4.
+        If the assertion is true, the test passes. If the assertion is false, the test fails and an error message is
+        displayed.
+
+        To run this test function using pytest, we simply save the code above in a file called test_example.
+        py and run pytest from the command line:
+      </p>
+
+      <pre>
+      <code class="language-python">
+$ pytest test_example.py
+      </code>
+    </pre>
+
+      <p><span class="numbered"><b>Explanation: </b></span> will run all the test functions defined in test_example.py and report the results.
+        In this case, we should see a message indicating that the test_addition() function passed.
+      </p>
+    </section>
+    
+      <p class="numbered">
+        
+        
+        Made by <a class="hyperlink"rel="author" target="_blank" href="https://www.linkedin.com/in/julian-aparicio/">Julian Ricardo Aparicio Bello</a>
+        on<time pubdate datetime="2023-03-8" title="March eight of 2023"> April 14, 2023 / </time> 
+        Bogotá D.C. -
+        Colombia      </p>
+      
+  </main>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</body>
+
+
+</html>
